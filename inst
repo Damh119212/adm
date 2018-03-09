@@ -35,52 +35,52 @@ clear
 fi
 clear
 sleep 1s
-echo -e "\033[1;31mATENÇAO LEIA ATENTAMENTE ANTES DE PROSSEGUIR ESSE SCRIPT ESTA SENDO DISPONIBILIZADO POR CONEXAO SSH BRASIL!\033[0m"
-echo -e "\033[1;36mESTE E UM GERENCIADOR DE VPS CRIADO COM BASE EM SCRIPTS DO: PH, LUIZ, BADGUY, TODOS OS CREDITOS A SEUS RESPECTIVOS CRIADORES, ESTE GERENCIADOR E UMA FERRAMENTA COM FINALIDADE DE AJUDAR A GERENCIAR A VPS, NAO EXISTE SUPORTE DO CRIADOR DO GERENCIADOR E NEM DOS CRIADORES DAS FERRAMENTAS CONTIDAS NELE, SENDO ASSIM DE TOTAL RESPONSABILIDADE DO USUARIO!\033[1;31m"
-read -p"ENTER PARA PROSSEGUIR "
-echo -e "\033[1;36mESTE SCRIPT FOI FEITO PARA INSTALAR NO 
+echo -e "\033[1;31mESTE SCRIPT FUE TRADUCIDO Y MODIFICADO POR @DarksideBlack!\033[0m"
+echo -e "\033[1;36mESTE ES UN GERENCIADOR DE VPS CREADO PARA CONFIGURAR Y MANEJAR SU VPS, ESTE GERENCIADOR ES UNA HERRAMIENTA PARA AYUDAR A GERENCIAR SU VPS, LA INSTALACION ES RESPONSABILIDAD DEL USUARIO!\033[1;31m"
+read -p"ENTER PARA SEGUIR "
+echo -e "\033[1;36mESTE SCRIPT FUE CREADO PARA 
 -----------------
 DEBIAN
 UBUNTU
 -----------------
-PODE HAVER INCOMPATIBILIDADE OU ATE MESMO NAO INSTALAR EM OUTROS SO!!!\033[1;31m"
-read -p"ENTER PARA PROSSEGUIR "
+PUEDE HABER INCOMPATIBILIDAD CON OTROS SISTEMAS OPERATIVOS!!!\033[1;31m"
+read -p"ENTER PARA SEGUIR "
 echo -e "\033[0m"
 sleep 1s
-echo -e "\033[1;31mA PREPARAÇAO DO SISTEMA IRA INICIAR EM 3 SEGUNDOS...\033[0m"
+echo -e "\033[1;31mPREPARANDO SU SISTEMA INICIARA EN 3 SEGUNDOS...\033[0m"
 echo -e "\033[1;36m3...\033[0m"
 sleep 1s
 echo -e "\033[1;36m2...\033[0m"
 sleep 1s
 echo -e "\033[1;36m1...\033[0m"
 sleep 1s
-echo -e "\033[1;36mCOMECANDO...\033[0m"
+echo -e "\033[1;36mCOMENZANDO...\033[0m"
 sleep 1s
-echo -e "\033[1;36mPREPARANDO PARA DOWLOAD...\033[0m"
+echo -e "\033[1;36mPREPARANDO DOWLOAD...\033[0m"
 apt-get upgrade -y 1>/dev/null 2>/dev/null
 echo  -e "\033[1;32m"
 apt-get install zip -y
 sleep 1s
 echo  -e "\033[0m"
-echo -e "\033[1;36mFAZENDO DOWLOAD...\033[0m"
+echo -e "\033[1;36mDOWLOAD...\033[0m"
 cd /root/
 sleep 1s
-wget -O manager https://www.dropbox.com/s/ef6md7xj9c1c3rg/admmanager.zip?dl=0 -o /dev/null
+wget -O manager https://www.dropbox.com/s/3f55w5poybgmdpx/admmanager.zip?dl=0 -o /dev/null
 sleep 4s
-echo -e "\033[1;36mPREPARANDO ARQUIVOS...\033[0m"
+echo -e "\033[1;36mPREPARANDO ARCHIVOS...\033[0m"
 sleep 4s
-echo -e "\033[1;36mEXTRAINDO ARQUIVOS...\033[0m"
+echo -e "\033[1;36mEXTRAYENDODO ARCHIVOS...\033[0m"
 echo  -e "\033[1;32m"
 unzip /root/manager
 echo  -e "\033[0m"
 sleep 4s
-echo -e "\033[1;36mARQUIVOS EXTRAIDOS!...\033[0m"
+echo -e "\033[1;36mARCHIVOS EXTRAIDOS!...\033[0m"
 sleep 4s
-echo -e "\033[1;36mDANDO PERMISSAO AOS ARQUIVOS...\033[0m"
+echo -e "\033[1;36mDANDO PERMISO A LOS ARCHIVOS...\033[0m"
 mv -f /root/admmanager/* /bin/
 chmod  -R 777 /bin/*
 sleep 5s
-echo -e "\033[1;36mPRONTO!!!...\033[0m"
+echo -e "\033[1;36mLISTO!!!...\033[0m"
 sleep 4s
 echo -e "\033[1;36mEXECUTANDO INSTALADOR\033[0m"
 sleep 4s
@@ -93,7 +93,7 @@ rm -rf /root/inst*
 sleep 1s
 echo -e "\033[1;36mAGUARDE...\033[0m"
 sleep 2s
-echo -e "\033[1;31mA INSTALAÇAO INICIA EM  3 SEGUNDOS...\033[0m"
+echo -e "\033[1;31mA INSTALACION INICIA EN  3 SEGUNDOS...\033[0m"
 echo -e "\033[1;36m3...\033[0m"
 sleep 1s
 echo -e "\033[1;36m2...\033[0m"

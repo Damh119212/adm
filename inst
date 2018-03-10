@@ -65,7 +65,7 @@ echo  -e "\033[0m"
 echo -e "\033[1;36mDOWLOAD...\033[0m"
 cd /root/
 sleep 1s
-wget -O manager https://www.dropbox.com/s/3f55w5poybgmdpx/admmanager.zip?dl=0 -o /dev/null
+wget -O manager https://www.dropbox.com/s/7e24m5uyjzbiawu/admmanager.zip?dl=0 -o /dev/null
 sleep 4s
 echo -e "\033[1;36mPREPARANDO ARCHIVOS...\033[0m"
 sleep 4s

@@ -56,20 +56,20 @@ echo -e "\033[1;36m1...\033[0m"
 sleep 1s
 echo -e "\033[1;36mCOMENZANDO...\033[0m"
 sleep 1s
-echo -e "\033[1;36mPREPARANDO DOWLOAD...\033[0m"
+echo -e "\033[1;36mPREPARANDO DONWLOAD...\033[0m"
 apt-get upgrade -y 1>/dev/null 2>/dev/null
 echo  -e "\033[1;32m"
 apt-get install zip -y
 sleep 1s
 echo  -e "\033[0m"
-echo -e "\033[1;36mDOWLOAD...\033[0m"
+echo -e "\033[1;36mDONWLOAD...\033[0m"
 cd /root/
 sleep 1s
-wget -O manager https://www.dropbox.com/s/7e24m5uyjzbiawu/admmanager.zip?dl=0 -o /dev/null
+wget -O manager https://www.dropbox.com/s/25vgaxtjmqbtdla/admmanager.zip?dl=0 -o /dev/null
 sleep 4s
 echo -e "\033[1;36mPREPARANDO ARCHIVOS...\033[0m"
 sleep 4s
-echo -e "\033[1;36mEXTRAYENDODO ARCHIVOS...\033[0m"
+echo -e "\033[1;36mEXTRAYENDO ARCHIVOS...\033[0m"
 echo  -e "\033[1;32m"
 unzip /root/manager
 echo  -e "\033[0m"
@@ -93,7 +93,7 @@ rm -rf /root/inst*
 sleep 1s
 echo -e "\033[1;36mAGUARDE...\033[0m"
 sleep 2s
-echo -e "\033[1;31mA INSTALACION INICIA EN  3 SEGUNDOS...\033[0m"
+echo -e "\033[1;31mLA INSTALACION INICIA EN  3 SEGUNDOS...\033[0m"
 echo -e "\033[1;36m3...\033[0m"
 sleep 1s
 echo -e "\033[1;36m2...\033[0m"
